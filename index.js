@@ -16,7 +16,12 @@ function produceTipCalculator(percentTip) {
 }
 
 function createDriver() {
-  return function() {
+  let driverId = 0;
+  
+  return class {
+    constructor(name) {
+      this.name = name;
+    }
 
   }
 }
