@@ -4,7 +4,7 @@ function produceDrivingRange(blockRange) {
     if (blockRange < distance) {
       return `${Math.abs(blockRange - distance)} blocks out of range`;
     } else {
-      return `within range by ${Math.abs(blockRange - 10)}`;
+      return `within range by ${Math.abs(blockRange - distance)}`;
     };
   }
 }
